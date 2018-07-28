@@ -3,7 +3,7 @@ mono: none
 dotnet: 2.1.301
 script:
     - echo $TRAVIS_BUILD_NUMBER
-    - dotnet pack Amsterdam.Http.Extensions/Amsterdam.Http.Extensions.csproj -c Release /p:Version=1.0.0.$TRAVIS_BUILD_NUMBER -o output/nupkg/
+    - dotnet pack Amsterdam.Http.Extensions/Amsterdam.Http.Extensions.csproj -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER -o output/nupkg/
 
 deploy:
   provider: script
