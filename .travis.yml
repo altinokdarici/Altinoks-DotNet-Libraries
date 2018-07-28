@@ -7,6 +7,6 @@ script:
 
 deploy:
   provider: script
-  script: dotnet nuget push output/nupkg/*.nupkg -k $NUGET_KEY
+  script: dotnet nuget push output/nupkg/*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json
   on:
     branch: master
