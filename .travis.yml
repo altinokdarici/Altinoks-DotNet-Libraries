@@ -2,5 +2,5 @@ language: csharp
 mono: none
 dotnet: 2.0.0
 script:
-    - dotnet build -c Release
-    - dotnet pack Amsterdam.Http.Extensions/Amsterdam.Http.Extensions.csproj -c Release --version-suffix "$TRAVIS_BUILD_ID"
+    - echo $TRAVIS_BUILD_ID
+    - dotnet pack Amsterdam.Http.Extensions/Amsterdam.Http.Extensions.csproj -c Release --version-suffix "$TRAVIS_BUILD_ID" -o output/nupkg/
