@@ -6,6 +6,8 @@
 		<PackageId>Amsterdam.HttpClient.Extensions</PackageId>
 		<Authors>Altinok Darici</Authors>
 		<Description>System.Net.Http Extensions</Description>
+		<PackageIconUrl>https://i.imgur.com/UR0GajX.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/altinokdarici/Amsterdam</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageReleaseNotes>First release</PackageReleaseNotes>
 		<PackageTags>Http, Http Client, Json</PackageTags>
