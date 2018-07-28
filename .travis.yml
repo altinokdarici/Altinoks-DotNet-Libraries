@@ -7,6 +7,6 @@ script:
 
 deploy:
   provider: script
-  script: dotnet nuget push output/nupkg/*.nupkg
+  script: dotnet nuget push output/nupkg/*.nupkg -k $NUGET_KEY
   on:
     branch: master
