@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
 
 		<PackageId>Amsterdam.HttpClient.Extensions</PackageId>
-		<PackageVersion>1.0.0</PackageVersion>
+		<VersionPrefix>1.0.0</VersionPrefix>
 		<Authors>Altinok Darici</Authors>
 		<Description>System.Net.Http Extensions</Description>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
