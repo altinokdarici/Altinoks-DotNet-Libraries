@@ -1,9 +1,8 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace Amsterdam.Http.Extensions
+namespace Altinok.Http.Extensions
 {
 	public static class HttpClientExtensions
 	{
@@ -12,7 +11,7 @@ namespace Amsterdam.Http.Extensions
 		///     Send a GET request to the specified Uri and deserialize the json response body as a <typeparamref name="T"/>
 		///     in an asynchronous operation.
 		/// </summary>
-		/// <typeparam name="T"></typeparam>
+		/// <typeparam name="T"></typeparam>	 
 		/// <param name="httpClient"></param>
 		/// <param name="requestUri"></param>
 		/// <returns></returns>
