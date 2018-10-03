@@ -15,9 +15,13 @@ namespace Altinok.Azure.EventGrid
 			EventTime = DateTime.UtcNow;
 			DataVersion = DefaultDataVersion;
 		}
-		public new T Data => (T)base.Data;
 
+		public new T Data
+		{
+			get { return (T)base.Data; }
+			set { base.Data = value; }
+
+		}
 
 	}
-
 }
