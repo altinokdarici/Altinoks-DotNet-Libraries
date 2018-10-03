@@ -1,3 +1,3 @@
 "# Altinok's DotNet Libraries" 
 
-[![Build Status](https://travis-ci.com/altinokdarici/Amsterdam.svg?branch=master)](https://travis-ci.com/altinokdarici/Amsterdam)
+[![Build Status](https://travis-ci.com/altinokdarici/Altinoks-DotNet-Libraries.svg?branch=master)](https://travis-ci.com/altinokdarici/Altinoks-DotNet-Libraries)
