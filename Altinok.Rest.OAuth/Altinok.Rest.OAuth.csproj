@@ -6,11 +6,11 @@
 
 		<PackageId>Altinok.Rest.OAuth</PackageId>
 		<Authors>Altinok Darici</Authors>
-		<Description>System.Net.Http Extensions</Description>
+		<Description>OAuth Client</Description>
 		<RepositoryUrl>https://github.com/altinokdarici/Altinoks-DotNet-Libraries</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
 		<PackageReleaseNotes>First release</PackageReleaseNotes>
-		<PackageTags>Http, Http Client, Json</PackageTags>
+		<PackageTags>OAuth, Jwt</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
 
-		<PackageId>Altinok.Rest.OAuth</PackageId>
+		<PackageId>Altinok.Http.Extensions</PackageId>
 		<Authors>Altinok Darici</Authors>
 		<Description>System.Net.Http Extensions</Description>
 		<RepositoryUrl>https://github.com/altinokdarici/Altinoks-DotNet-Libraries</RepositoryUrl>
