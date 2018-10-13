@@ -5,4 +5,5 @@ script:
     - dotnet pack Altinok.Http.Extensions/Altinok.Http.Extensions.csproj -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER -o ../output/nupkg/
     - dotnet pack Altinok.Azure.EventGrid/Altinok.Azure.EventGrid.csproj -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER -o ../output/nupkg/
     - dotnet pack Altinok.Rest.OAuth/Altinok.Rest.OAuth.csproj -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER -o ../output/nupkg/
+    - ls ./output/nupkg/
     - dotnet nuget push output/nupkg/*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json
