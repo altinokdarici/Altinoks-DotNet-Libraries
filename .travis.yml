@@ -8,4 +8,4 @@ script:
     - ls ./output/nupkg/
     - dotnet nuget push output/nupkg/Altinok.Azure.EventGrid.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
     - dotnet nuget push output/nupkg/Altinok.Http.Extensions.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
-    - dotnet nuget push output/nupkg/Altinok..Rest.OAuth.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
+    - dotnet nuget push output/nupkg/Altinok.Rest.OAuth.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
