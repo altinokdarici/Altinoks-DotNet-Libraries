@@ -42,7 +42,7 @@ namespace Altinok.Rest.OAuth
 			payload.AddRange(properties);
 
 
-			var content = new FormUrlEncodedContent(properties);
+			var content = new FormUrlEncodedContent(payload);
 			using (var response = await httpClient.PostAsync(tokenEndpoint, content))
 			{
 				response.EnsureSuccessStatusCode();
