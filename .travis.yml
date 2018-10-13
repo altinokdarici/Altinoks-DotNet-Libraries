@@ -6,7 +6,6 @@ script:
     - dotnet pack Altinok.Azure.EventGrid/Altinok.Azure.EventGrid.csproj -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER -o ../output/nupkg/
     - dotnet pack Altinok.Rest.OAuth/Altinok.Rest.OAuth.csproj -c Release /p:Version=1.0.$TRAVIS_BUILD_NUMBER -o ../output/nupkg/
     - ls ./output/nupkg/
-    - for file in $(ls ./output/nupkg/); 
-      do 
-        dotnet nuget push output/nupkg/$file -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
-      done
+    - dotnet nuget push output/nupkg/Altinok.Azure.EventGrid.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
+    - dotnet nuget push output/nupkg/Altinok.Http.Extensions.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
+    - dotnet nuget push output/nupkg/Altinok..Rest.OAuth.*.nupkg -k $NUGET_KEY -s https://api.nuget.org/v3/index.json 
